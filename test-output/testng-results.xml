@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110" started-at="2020-12-26T12:50:38 IST" finished-at="2020-12-26T12:50:38 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Test1a.first()[pri:0, instance:CourseTestngXml.Test1a@704a52ec]" name="first" class="CourseTestngXml.Test1a"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="110" started-at="2020-12-26T12:50:38 IST" finished-at="2020-12-26T12:50:38 IST">
+      <class name="CourseTestngXml.Test1a">
+        <test-method status="PASS" signature="first()[pri:0, instance:CourseTestngXml.Test1a@704a52ec]" name="first" duration-ms="36" started-at="2020-12-26T12:50:38 IST" finished-at="2020-12-26T12:50:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- CourseTestngXml.Test1a -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

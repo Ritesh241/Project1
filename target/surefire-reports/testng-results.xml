@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106" started-at="2020-12-26T07:29:06Z" finished-at="2020-12-26T07:29:06Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Test1a.first()[pri:0, instance:CourseTestngXml.Test1a@23a5fd2]" name="first" class="CourseTestngXml.Test1a"/>
+        <method signature="Test1b.fourth()[pri:0, instance:CourseTestngXml.Test1b@64d7f7e0]" name="fourth" class="CourseTestngXml.Test1b"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Test" duration-ms="106" started-at="2020-12-26T07:29:06Z" finished-at="2020-12-26T07:29:06Z">
+      <class name="CourseTestngXml.Test1a">
+        <test-method status="PASS" signature="first()[pri:0, instance:CourseTestngXml.Test1a@23a5fd2]" name="first" duration-ms="17" started-at="2020-12-26T12:59:06Z" finished-at="2020-12-26T12:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- CourseTestngXml.Test1a -->
+      <class name="CourseTestngXml.Test1b">
+        <test-method status="PASS" signature="third()[pri:0, instance:CourseTestngXml.Test1b@64d7f7e0]" name="third" duration-ms="51" started-at="2020-12-26T12:59:06Z" finished-at="2020-12-26T12:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method status="PASS" signature="fourth()[pri:0, instance:CourseTestngXml.Test1b@64d7f7e0]" name="fourth" duration-ms="2" started-at="2020-12-26T12:59:06Z" finished-at="2020-12-26T12:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourth -->
+      </class> <!-- CourseTestngXml.Test1b -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

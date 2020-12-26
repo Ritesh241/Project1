@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name= "CourseTestngXml.ListenerTest"/>
+	
+	</listeners>
+	
+
+  <test name="Test">
+  	<parameter name= "URL" value= "http://yahoo.co.in" />
+  	<parameter name= "Username" value= "123456" />
+    	<classes>
+      		<class name="CourseTestngXml.Test3">
+      		<methods>
+      			<include name="Yahoo.*"/>
+      			<include name="Gmail.*"/>
+      		</methods>
+      	</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
