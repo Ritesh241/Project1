@@ -11,7 +11,7 @@ public class Test1a {
 	  System.out.println("first");
   }
 
-  @Test(enabled= true) 
+  @Test(enabled= false) 
   public void second() 
   {
 	  System.out.println("second");
